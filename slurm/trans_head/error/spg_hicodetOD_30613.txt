@@ -1,0 +1,64 @@
+/users/PCS0256/lijing/mmdetection_ascend/mmdet/models/detectors/two_stage.py:29: UserWarning: DeprecationWarning: pretrained is deprecated, please use "init_cfg" instead
+  warnings.warn('DeprecationWarning: pretrained is deprecated, '
+/users/PCS0256/lijing/mmdetection_ascend/mmdet/models/backbones/resnet.py:401: UserWarning: DeprecationWarning: pretrained is deprecated, please use "init_cfg" instead
+  warnings.warn('DeprecationWarning: pretrained is deprecated, '
+/users/PCS0256/lijing/mmdetection_ascend/mmdet/models/detectors/two_stage.py:29: UserWarning: DeprecationWarning: pretrained is deprecated, please use "init_cfg" instead
+  warnings.warn('DeprecationWarning: pretrained is deprecated, '
+/users/PCS0256/lijing/mmdetection_ascend/mmdet/models/backbones/resnet.py:401: UserWarning: DeprecationWarning: pretrained is deprecated, please use "init_cfg" instead
+  warnings.warn('DeprecationWarning: pretrained is deprecated, '
+/users/PCS0256/lijing/mmdetection_ascend/mmdet/models/detectors/two_stage.py:29: UserWarning: DeprecationWarning: pretrained is deprecated, please use "init_cfg" instead
+  warnings.warn('DeprecationWarning: pretrained is deprecated, '
+/users/PCS0256/lijing/mmdetection_ascend/mmdet/models/backbones/resnet.py:401: UserWarning: DeprecationWarning: pretrained is deprecated, please use "init_cfg" instead
+  warnings.warn('DeprecationWarning: pretrained is deprecated, '
+/users/PCS0256/lijing/mmdetection_ascend/mmdet/models/detectors/two_stage.py:29: UserWarning: DeprecationWarning: pretrained is deprecated, please use "init_cfg" instead
+  warnings.warn('DeprecationWarning: pretrained is deprecated, '
+/users/PCS0256/lijing/mmdetection_ascend/mmdet/models/backbones/resnet.py:401: UserWarning: DeprecationWarning: pretrained is deprecated, please use "init_cfg" instead
+  warnings.warn('DeprecationWarning: pretrained is deprecated, '
+/users/PCS0256/lijing/.conda/envs/pocket/lib/python3.9/site-packages/torch/functional.py:478: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1659484806139/work/aten/src/ATen/native/TensorShape.cpp:2894.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/users/PCS0256/lijing/.conda/envs/pocket/lib/python3.9/site-packages/torch/functional.py:478: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1659484806139/work/aten/src/ATen/native/TensorShape.cpp:2894.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/users/PCS0256/lijing/.conda/envs/pocket/lib/python3.9/site-packages/torch/functional.py:478: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1659484806139/work/aten/src/ATen/native/TensorShape.cpp:2894.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:88: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_cnn[0].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:88: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_cnn[0].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:88: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_cnn[0].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:89: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_cnn[3].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:89: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_cnn[3].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:89: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_cnn[3].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:90: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_lin[0].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:90: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_lin[0].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:90: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_lin[0].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:91: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_lin[2].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:91: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_lin[2].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:91: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_lin[2].weight)
+/users/PCS0256/lijing/.conda/envs/pocket/lib/python3.9/site-packages/torch/functional.py:478: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1659484806139/work/aten/src/ATen/native/TensorShape.cpp:2894.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:88: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_cnn[0].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:89: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_cnn[3].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:90: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_lin[0].weight)
+/users/PCS0256/lijing/spatially-conditioned-graphs/heads/TransH/ConvH.py:91: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.ent_embeddings.encoder_lin[2].weight)
+2023-03-10 14:32:37,060 - mmdet - INFO - produced the box_parir_spatial nan values: tensor([[  0.0750,   0.7453,   0.0750,  ..., -23.0259, -23.0259, -23.0259],
+        [  0.0750,   0.7453,   0.2389,  ..., -23.0259, -23.0259,  -0.8483],
+        [  0.0750,   0.7453,   0.4403,  ..., -23.0259, -23.0259,  -0.6624],
+        ...,
+        [  0.0000,   0.3487,   0.0000,  ..., -23.0259, -23.0259, -23.0259],
+        [  0.0000,   0.3487,   0.5139,  ..., -23.0259,   0.9558, -23.0259],
+        [  0.0000,   0.3487,   0.3890,  ..., -23.0259, -23.0259,  -0.5092]],
+       device='cuda:1')

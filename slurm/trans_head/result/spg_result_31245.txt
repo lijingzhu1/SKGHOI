@@ -1,0 +1,361 @@
+Namespace(world_size=4, dataset='hicodet', partitions=['train2015', 'test2015'], data_root='hicodet', train_detection_dir='hicodet/detections/train2015_r50_pretained', val_detection_dir='hicodet/detections/test2015_r50_pretained', mmdet_config='/users/PCS0256/lijing/mmdetection_ascend/checkpoints/hoi_adamixer/adamixer_finetuning_r50_36_epoch/r50_36_epoch_finetuning_hicodet.py', mmdet_checkpoint='/users/PCS0256/lijing/mmdetection_ascend/checkpoints/hoi_adamixer/adamixer_finetuning_r50_36_epoch/epoch_11.pth', num_iter=2, num_epochs=20, random_seed=42, translational_dim=1024, translational_p_norm=2, translational_norm_flag=True, learning_rate=0.0001, momentum=0.9, weight_decay=0.0001, batch_size=4, lr_decay=0.1, box_score_thresh=0.2, max_human=15, max_object=15, milestones=[6], num_workers=4, print_interval=300, checkpoint_path='', cache_dir='checkpoints/linearH/lr0.0001')
+load checkpoint from local path: /users/PCS0256/lijing/mmdetection_ascend/checkpoints/hoi_adamixer/adamixer_finetuning_r50_36_epoch/epoch_11.pth
+=> Rank 0: start from a randomly initialised model
+load checkpoint from local path: /users/PCS0256/lijing/mmdetection_ascend/checkpoints/hoi_adamixer/adamixer_finetuning_r50_36_epoch/epoch_11.pth
+=> Rank 1: start from a randomly initialised model
+load checkpoint from local path: /users/PCS0256/lijing/mmdetection_ascend/checkpoints/hoi_adamixer/adamixer_finetuning_r50_36_epoch/epoch_11.pth
+=> Rank 3: start from a randomly initialised model
+load checkpoint from local path: /users/PCS0256/lijing/mmdetection_ascend/checkpoints/hoi_adamixer/adamixer_finetuning_r50_36_epoch/epoch_11.pth
+=> Rank 2: start from a randomly initialised model
+Epoch [1/20], Iter. [0300/2353], Loss: 2.6203, Time[Data/Iter.]: [21.40s/346.35s]
+=> HOI classification loss: 1.6497, interactiveness loss: 0.4869 transH loss: 0.4837
+Epoch [1/20], Iter. [0600/2353], Loss: 2.3258, Time[Data/Iter.]: [0.45s/319.56s]
+=> HOI classification loss: 1.4026, interactiveness loss: 0.4388 transH loss: 0.4844
+Epoch [1/20], Iter. [0900/2353], Loss: 2.3587, Time[Data/Iter.]: [0.46s/320.01s]
+=> HOI classification loss: 1.4551, interactiveness loss: 0.4329 transH loss: 0.4707
+Epoch [1/20], Iter. [1200/2353], Loss: 2.2985, Time[Data/Iter.]: [0.46s/319.72s]
+=> HOI classification loss: 1.2550, interactiveness loss: 0.5747 transH loss: 0.4688
+Epoch [1/20], Iter. [1500/2353], Loss: 2.1930, Time[Data/Iter.]: [0.49s/319.53s]
+=> HOI classification loss: 1.3145, interactiveness loss: 0.3967 transH loss: 0.4818
+Epoch [1/20], Iter. [1800/2353], Loss: 2.1300, Time[Data/Iter.]: [0.50s/321.10s]
+=> HOI classification loss: 1.2668, interactiveness loss: 0.3881 transH loss: 0.4751
+Epoch [1/20], Iter. [2100/2353], Loss: 2.1020, Time[Data/Iter.]: [0.44s/320.66s]
+=> HOI classification loss: 1.2425, interactiveness loss: 0.3783 transH loss: 0.4812
+Epoch: 1 | training mAP: 0.1695, evaluation time: 45.78s |validation mAP: 0.2292, total time: 480.19s
+
+Epoch [2/20], Iter. [0047/2353], Loss: 2.0695, Time[Data/Iter.]: [40.83s/363.80s]
+=> HOI classification loss: 1.2137, interactiveness loss: 0.3724 transH loss: 0.4834
+Epoch [2/20], Iter. [0347/2353], Loss: 2.0812, Time[Data/Iter.]: [0.45s/320.69s]
+=> HOI classification loss: 1.2216, interactiveness loss: 0.3826 transH loss: 0.4770
+Epoch [2/20], Iter. [0647/2353], Loss: 2.0915, Time[Data/Iter.]: [0.45s/321.08s]
+=> HOI classification loss: 1.2383, interactiveness loss: 0.3812 transH loss: 0.4720
+Epoch [2/20], Iter. [0947/2353], Loss: 2.0073, Time[Data/Iter.]: [0.45s/320.95s]
+=> HOI classification loss: 1.1611, interactiveness loss: 0.3670 transH loss: 0.4792
+Epoch [2/20], Iter. [1247/2353], Loss: 2.0243, Time[Data/Iter.]: [0.47s/320.75s]
+=> HOI classification loss: 1.1708, interactiveness loss: 0.3692 transH loss: 0.4843
+Epoch [2/20], Iter. [1547/2353], Loss: 2.0153, Time[Data/Iter.]: [0.43s/321.56s]
+=> HOI classification loss: 1.1694, interactiveness loss: 0.3641 transH loss: 0.4819
+Epoch [2/20], Iter. [1847/2353], Loss: 1.9864, Time[Data/Iter.]: [0.45s/320.20s]
+=> HOI classification loss: 1.1468, interactiveness loss: 0.3663 transH loss: 0.4733
+Epoch [2/20], Iter. [2147/2353], Loss: 2.0350, Time[Data/Iter.]: [0.45s/320.11s]
+=> HOI classification loss: 1.1625, interactiveness loss: 0.4012 transH loss: 0.4713
+Epoch: 2 | training mAP: 0.2416, evaluation time: 45.45s |validation mAP: 0.2536, total time: 478.26s
+
+Epoch [3/20], Iter. [0094/2353], Loss: 1.9946, Time[Data/Iter.]: [40.02s/363.62s]
+=> HOI classification loss: 1.1419, interactiveness loss: 0.3673 transH loss: 0.4853
+Epoch [3/20], Iter. [0394/2353], Loss: 2.0023, Time[Data/Iter.]: [0.45s/321.43s]
+=> HOI classification loss: 1.1751, interactiveness loss: 0.3648 transH loss: 0.4624
+Epoch [3/20], Iter. [0694/2353], Loss: 1.9435, Time[Data/Iter.]: [0.47s/322.22s]
+=> HOI classification loss: 1.1259, interactiveness loss: 0.3529 transH loss: 0.4647
+Epoch [3/20], Iter. [0994/2353], Loss: 1.9576, Time[Data/Iter.]: [0.49s/321.40s]
+=> HOI classification loss: 1.1262, interactiveness loss: 0.3623 transH loss: 0.4691
+Epoch [3/20], Iter. [1294/2353], Loss: 1.9690, Time[Data/Iter.]: [0.49s/321.58s]
+=> HOI classification loss: 1.1278, interactiveness loss: 0.3568 transH loss: 0.4844
+Epoch [3/20], Iter. [1594/2353], Loss: 1.9189, Time[Data/Iter.]: [0.49s/320.46s]
+=> HOI classification loss: 1.0867, interactiveness loss: 0.3498 transH loss: 0.4824
+Epoch [3/20], Iter. [1894/2353], Loss: 1.9291, Time[Data/Iter.]: [0.49s/321.28s]
+=> HOI classification loss: 1.0926, interactiveness loss: 0.3494 transH loss: 0.4872
+Epoch [3/20], Iter. [2194/2353], Loss: 1.9531, Time[Data/Iter.]: [0.45s/320.83s]
+=> HOI classification loss: 1.1139, interactiveness loss: 0.3580 transH loss: 0.4812
+Epoch: 3 | training mAP: 0.2834, evaluation time: 40.91s |validation mAP: 0.2617, total time: 482.92s
+
+Epoch [4/20], Iter. [0141/2353], Loss: 1.9485, Time[Data/Iter.]: [41.15s/365.62s]
+=> HOI classification loss: 1.1115, interactiveness loss: 0.3523 transH loss: 0.4846
+Epoch [4/20], Iter. [0441/2353], Loss: 1.9106, Time[Data/Iter.]: [0.44s/321.23s]
+=> HOI classification loss: 1.0852, interactiveness loss: 0.3548 transH loss: 0.4706
+Epoch [4/20], Iter. [0741/2353], Loss: 1.9330, Time[Data/Iter.]: [0.43s/321.78s]
+=> HOI classification loss: 1.0914, interactiveness loss: 0.3573 transH loss: 0.4844
+Epoch [4/20], Iter. [1041/2353], Loss: 1.9095, Time[Data/Iter.]: [0.41s/320.70s]
+=> HOI classification loss: 1.0857, interactiveness loss: 0.3471 transH loss: 0.4767
+Epoch [4/20], Iter. [1341/2353], Loss: 1.8919, Time[Data/Iter.]: [0.47s/320.23s]
+=> HOI classification loss: 1.0641, interactiveness loss: 0.3518 transH loss: 0.4761
+Epoch [4/20], Iter. [1641/2353], Loss: 1.9179, Time[Data/Iter.]: [0.44s/320.91s]
+=> HOI classification loss: 1.0825, interactiveness loss: 0.3574 transH loss: 0.4779
+Epoch [4/20], Iter. [1941/2353], Loss: 1.9355, Time[Data/Iter.]: [0.43s/320.21s]
+=> HOI classification loss: 1.0954, interactiveness loss: 0.3583 transH loss: 0.4819
+Epoch [4/20], Iter. [2241/2353], Loss: 1.8827, Time[Data/Iter.]: [0.45s/319.95s]
+=> HOI classification loss: 1.0677, interactiveness loss: 0.3390 transH loss: 0.4760
+Epoch: 4 | training mAP: 0.3169, evaluation time: 45.59s |validation mAP: 0.2816, total time: 476.06s
+
+Epoch [5/20], Iter. [0188/2353], Loss: 1.8856, Time[Data/Iter.]: [38.76s/361.98s]
+=> HOI classification loss: 1.0550, interactiveness loss: 0.3457 transH loss: 0.4849
+Epoch [5/20], Iter. [0488/2353], Loss: 1.8574, Time[Data/Iter.]: [0.45s/320.21s]
+=> HOI classification loss: 1.0464, interactiveness loss: 0.3391 transH loss: 0.4720
+Epoch [5/20], Iter. [0788/2353], Loss: 1.8660, Time[Data/Iter.]: [0.46s/321.94s]
+=> HOI classification loss: 1.0492, interactiveness loss: 0.3399 transH loss: 0.4769
+Epoch [5/20], Iter. [1088/2353], Loss: 1.8519, Time[Data/Iter.]: [0.47s/321.87s]
+=> HOI classification loss: 1.0328, interactiveness loss: 0.3389 transH loss: 0.4802
+Epoch [5/20], Iter. [1388/2353], Loss: 1.8534, Time[Data/Iter.]: [0.43s/321.45s]
+=> HOI classification loss: 1.0320, interactiveness loss: 0.3383 transH loss: 0.4831
+Epoch [5/20], Iter. [1688/2353], Loss: 1.8438, Time[Data/Iter.]: [0.42s/320.77s]
+=> HOI classification loss: 1.0342, interactiveness loss: 0.3395 transH loss: 0.4701
+Epoch [5/20], Iter. [1988/2353], Loss: 1.8569, Time[Data/Iter.]: [0.42s/320.83s]
+=> HOI classification loss: 1.0506, interactiveness loss: 0.3308 transH loss: 0.4755
+Epoch [5/20], Iter. [2288/2353], Loss: 1.8542, Time[Data/Iter.]: [0.44s/321.17s]
+=> HOI classification loss: 1.0405, interactiveness loss: 0.3325 transH loss: 0.4813
+Epoch: 5 | training mAP: 0.3572, evaluation time: 46.01s |validation mAP: 0.2924, total time: 478.71s
+
+Epoch [6/20], Iter. [0235/2353], Loss: 1.9578, Time[Data/Iter.]: [39.53s/363.41s]
+=> HOI classification loss: 1.0458, interactiveness loss: 0.4436 transH loss: 0.4684
+Epoch [6/20], Iter. [0535/2353], Loss: 1.8195, Time[Data/Iter.]: [0.48s/321.00s]
+=> HOI classification loss: 1.0038, interactiveness loss: 0.3294 transH loss: 0.4863
+Epoch [6/20], Iter. [0835/2353], Loss: 1.8279, Time[Data/Iter.]: [0.42s/320.46s]
+=> HOI classification loss: 1.0107, interactiveness loss: 0.3277 transH loss: 0.4895
+Epoch [6/20], Iter. [1135/2353], Loss: 1.8001, Time[Data/Iter.]: [0.42s/321.38s]
+=> HOI classification loss: 0.9958, interactiveness loss: 0.3367 transH loss: 0.4676
+Epoch [6/20], Iter. [1435/2353], Loss: 1.8345, Time[Data/Iter.]: [0.43s/322.71s]
+=> HOI classification loss: 1.0253, interactiveness loss: 0.3329 transH loss: 0.4763
+Epoch [6/20], Iter. [1735/2353], Loss: 1.8290, Time[Data/Iter.]: [0.44s/320.63s]
+=> HOI classification loss: 1.0174, interactiveness loss: 0.3263 transH loss: 0.4853
+Epoch [6/20], Iter. [2035/2353], Loss: 1.8146, Time[Data/Iter.]: [0.46s/319.86s]
+=> HOI classification loss: 1.0047, interactiveness loss: 0.3318 transH loss: 0.4781
+Epoch [6/20], Iter. [2335/2353], Loss: 1.8067, Time[Data/Iter.]: [0.43s/320.97s]
+=> HOI classification loss: 1.0089, interactiveness loss: 0.3320 transH loss: 0.4658
+Epoch: 6 | training mAP: 0.3806, evaluation time: 45.10s |validation mAP: 0.3031, total time: 475.55s
+
+Epoch [7/20], Iter. [0282/2353], Loss: 1.7860, Time[Data/Iter.]: [38.71s/361.29s]
+=> HOI classification loss: 0.9732, interactiveness loss: 0.3288 transH loss: 0.4840
+Epoch [7/20], Iter. [0582/2353], Loss: 1.7629, Time[Data/Iter.]: [0.43s/322.47s]
+=> HOI classification loss: 0.9680, interactiveness loss: 0.3194 transH loss: 0.4755
+Epoch [7/20], Iter. [0882/2353], Loss: 1.7594, Time[Data/Iter.]: [0.44s/321.74s]
+=> HOI classification loss: 0.9589, interactiveness loss: 0.3147 transH loss: 0.4859
+Epoch [7/20], Iter. [1182/2353], Loss: 1.7646, Time[Data/Iter.]: [0.45s/322.37s]
+=> HOI classification loss: 0.9658, interactiveness loss: 0.3234 transH loss: 0.4755
+Epoch [7/20], Iter. [1482/2353], Loss: 1.7435, Time[Data/Iter.]: [0.46s/320.65s]
+=> HOI classification loss: 0.9576, interactiveness loss: 0.3147 transH loss: 0.4712
+Epoch [7/20], Iter. [1782/2353], Loss: 1.7423, Time[Data/Iter.]: [0.46s/320.39s]
+=> HOI classification loss: 0.9454, interactiveness loss: 0.3131 transH loss: 0.4837
+Epoch [7/20], Iter. [2082/2353], Loss: 1.7457, Time[Data/Iter.]: [0.43s/321.23s]
+=> HOI classification loss: 0.9574, interactiveness loss: 0.3208 transH loss: 0.4676
+Epoch: 7 | training mAP: 0.4610, evaluation time: 46.26s |validation mAP: 0.3139, total time: 481.38s
+
+Epoch [8/20], Iter. [0029/2353], Loss: 1.7439, Time[Data/Iter.]: [37.75s/362.36s]
+=> HOI classification loss: 0.9560, interactiveness loss: 0.3149 transH loss: 0.4730
+Epoch [8/20], Iter. [0329/2353], Loss: 1.7627, Time[Data/Iter.]: [0.48s/320.94s]
+=> HOI classification loss: 0.9526, interactiveness loss: 0.3168 transH loss: 0.4933
+Epoch [8/20], Iter. [0629/2353], Loss: 1.7466, Time[Data/Iter.]: [0.47s/320.93s]
+=> HOI classification loss: 0.9508, interactiveness loss: 0.3135 transH loss: 0.4824
+Epoch [8/20], Iter. [0929/2353], Loss: 1.7461, Time[Data/Iter.]: [0.47s/321.51s]
+=> HOI classification loss: 0.9464, interactiveness loss: 0.3153 transH loss: 0.4844
+Epoch [8/20], Iter. [1229/2353], Loss: 1.7310, Time[Data/Iter.]: [0.45s/320.57s]
+=> HOI classification loss: 0.9476, interactiveness loss: 0.3100 transH loss: 0.4734
+Epoch [8/20], Iter. [1529/2353], Loss: 1.7369, Time[Data/Iter.]: [0.41s/319.88s]
+=> HOI classification loss: 0.9337, interactiveness loss: 0.3113 transH loss: 0.4920
+Epoch [8/20], Iter. [1829/2353], Loss: 1.7180, Time[Data/Iter.]: [0.42s/319.91s]
+=> HOI classification loss: 0.9368, interactiveness loss: 0.3112 transH loss: 0.4700
+Epoch [8/20], Iter. [2129/2353], Loss: 1.7317, Time[Data/Iter.]: [0.45s/321.69s]
+=> HOI classification loss: 0.9515, interactiveness loss: 0.3133 transH loss: 0.4669
+Epoch: 8 | training mAP: 0.4735, evaluation time: 42.15s |validation mAP: 0.3149, total time: 478.61s
+
+Epoch [9/20], Iter. [0076/2353], Loss: 1.8649, Time[Data/Iter.]: [38.30s/362.29s]
+=> HOI classification loss: 0.9492, interactiveness loss: 0.4330 transH loss: 0.4827
+Epoch [9/20], Iter. [0376/2353], Loss: 1.7211, Time[Data/Iter.]: [0.46s/321.29s]
+=> HOI classification loss: 0.9191, interactiveness loss: 0.3065 transH loss: 0.4955
+Epoch [9/20], Iter. [0676/2353], Loss: 1.7231, Time[Data/Iter.]: [0.47s/321.62s]
+=> HOI classification loss: 0.9390, interactiveness loss: 0.3146 transH loss: 0.4695
+Epoch [9/20], Iter. [0976/2353], Loss: 1.7180, Time[Data/Iter.]: [0.47s/323.44s]
+=> HOI classification loss: 0.9480, interactiveness loss: 0.3101 transH loss: 0.4598
+Epoch [9/20], Iter. [1276/2353], Loss: 1.7044, Time[Data/Iter.]: [0.44s/320.58s]
+=> HOI classification loss: 0.9223, interactiveness loss: 0.3078 transH loss: 0.4742
+Epoch [9/20], Iter. [1576/2353], Loss: 1.7461, Time[Data/Iter.]: [0.43s/322.40s]
+=> HOI classification loss: 0.9601, interactiveness loss: 0.3223 transH loss: 0.4637
+Epoch [9/20], Iter. [1876/2353], Loss: 1.7180, Time[Data/Iter.]: [0.46s/321.06s]
+=> HOI classification loss: 0.9277, interactiveness loss: 0.3087 transH loss: 0.4816
+Epoch [9/20], Iter. [2176/2353], Loss: 1.7268, Time[Data/Iter.]: [0.46s/322.07s]
+=> HOI classification loss: 0.9370, interactiveness loss: 0.3112 transH loss: 0.4787
+Epoch: 9 | training mAP: 0.4774, evaluation time: 48.68s |validation mAP: 0.3203, total time: 479.08s
+
+Epoch [10/20], Iter. [0123/2353], Loss: 1.7243, Time[Data/Iter.]: [37.90s/362.46s]
+=> HOI classification loss: 0.9322, interactiveness loss: 0.3094 transH loss: 0.4827
+Epoch [10/20], Iter. [0423/2353], Loss: 1.7347, Time[Data/Iter.]: [0.42s/321.57s]
+=> HOI classification loss: 0.9348, interactiveness loss: 0.3133 transH loss: 0.4866
+Epoch [10/20], Iter. [0723/2353], Loss: 1.7041, Time[Data/Iter.]: [0.44s/322.04s]
+=> HOI classification loss: 0.9145, interactiveness loss: 0.3065 transH loss: 0.4832
+Epoch [10/20], Iter. [1023/2353], Loss: 1.7274, Time[Data/Iter.]: [0.42s/321.47s]
+=> HOI classification loss: 0.9379, interactiveness loss: 0.3146 transH loss: 0.4749
+Epoch [10/20], Iter. [1323/2353], Loss: 1.6978, Time[Data/Iter.]: [0.44s/320.99s]
+=> HOI classification loss: 0.9199, interactiveness loss: 0.3018 transH loss: 0.4761
+Epoch [10/20], Iter. [1623/2353], Loss: 1.7141, Time[Data/Iter.]: [0.42s/321.53s]
+=> HOI classification loss: 0.9305, interactiveness loss: 0.3113 transH loss: 0.4723
+Epoch [10/20], Iter. [1923/2353], Loss: 1.7029, Time[Data/Iter.]: [0.47s/321.00s]
+=> HOI classification loss: 0.9270, interactiveness loss: 0.3105 transH loss: 0.4654
+Epoch [10/20], Iter. [2223/2353], Loss: 1.7159, Time[Data/Iter.]: [0.44s/321.67s]
+=> HOI classification loss: 0.9294, interactiveness loss: 0.3068 transH loss: 0.4797
+Epoch: 10 | training mAP: 0.4915, evaluation time: 42.21s |validation mAP: 0.3230, total time: 479.69s
+
+Epoch [11/20], Iter. [0170/2353], Loss: 1.7110, Time[Data/Iter.]: [40.72s/365.02s]
+=> HOI classification loss: 0.9252, interactiveness loss: 0.3112 transH loss: 0.4746
+Epoch [11/20], Iter. [0470/2353], Loss: 1.7098, Time[Data/Iter.]: [0.46s/321.85s]
+=> HOI classification loss: 0.9321, interactiveness loss: 0.3124 transH loss: 0.4653
+Epoch [11/20], Iter. [0770/2353], Loss: 1.7050, Time[Data/Iter.]: [0.46s/321.52s]
+=> HOI classification loss: 0.9252, interactiveness loss: 0.3076 transH loss: 0.4722
+Epoch [11/20], Iter. [1070/2353], Loss: 1.6997, Time[Data/Iter.]: [0.45s/320.35s]
+=> HOI classification loss: 0.9224, interactiveness loss: 0.3075 transH loss: 0.4698
+Epoch [11/20], Iter. [1370/2353], Loss: 1.7128, Time[Data/Iter.]: [0.44s/320.91s]
+=> HOI classification loss: 0.9095, interactiveness loss: 0.3126 transH loss: 0.4907
+Epoch [11/20], Iter. [1670/2353], Loss: 1.6967, Time[Data/Iter.]: [0.46s/319.46s]
+=> HOI classification loss: 0.9143, interactiveness loss: 0.2989 transH loss: 0.4836
+Epoch [11/20], Iter. [1970/2353], Loss: 1.7102, Time[Data/Iter.]: [0.46s/322.99s]
+=> HOI classification loss: 0.9199, interactiveness loss: 0.3075 transH loss: 0.4829
+Epoch [11/20], Iter. [2270/2353], Loss: 1.7150, Time[Data/Iter.]: [0.48s/319.56s]
+=> HOI classification loss: 0.9258, interactiveness loss: 0.3069 transH loss: 0.4823
+Epoch: 11 | training mAP: 0.4903, evaluation time: 45.23s |validation mAP: 0.3216, total time: 485.56s
+
+Epoch [12/20], Iter. [0217/2353], Loss: 1.7007, Time[Data/Iter.]: [43.57s/365.76s]
+=> HOI classification loss: 0.9094, interactiveness loss: 0.3019 transH loss: 0.4894
+Epoch [12/20], Iter. [0517/2353], Loss: 1.6900, Time[Data/Iter.]: [0.43s/320.59s]
+=> HOI classification loss: 0.9105, interactiveness loss: 0.3020 transH loss: 0.4775
+Epoch [12/20], Iter. [0817/2353], Loss: 1.7023, Time[Data/Iter.]: [0.41s/320.64s]
+=> HOI classification loss: 0.9309, interactiveness loss: 0.3115 transH loss: 0.4599
+Epoch [12/20], Iter. [1117/2353], Loss: 1.7005, Time[Data/Iter.]: [0.45s/323.17s]
+=> HOI classification loss: 0.9148, interactiveness loss: 0.3057 transH loss: 0.4801
+Epoch [12/20], Iter. [1417/2353], Loss: 1.7269, Time[Data/Iter.]: [0.45s/319.96s]
+=> HOI classification loss: 0.9115, interactiveness loss: 0.3303 transH loss: 0.4852
+Epoch [12/20], Iter. [1717/2353], Loss: 1.6943, Time[Data/Iter.]: [0.43s/321.23s]
+=> HOI classification loss: 0.9145, interactiveness loss: 0.3037 transH loss: 0.4760
+Epoch [12/20], Iter. [2017/2353], Loss: 1.7409, Time[Data/Iter.]: [0.44s/322.08s]
+=> HOI classification loss: 0.9429, interactiveness loss: 0.3173 transH loss: 0.4807
+Epoch [12/20], Iter. [2317/2353], Loss: 1.6816, Time[Data/Iter.]: [0.45s/321.59s]
+=> HOI classification loss: 0.8952, interactiveness loss: 0.2957 transH loss: 0.4907
+Epoch: 12 | training mAP: 0.4925, evaluation time: 49.17s |validation mAP: 0.3285, total time: 483.61s
+
+Epoch [13/20], Iter. [0264/2353], Loss: 1.7100, Time[Data/Iter.]: [42.38s/366.43s]
+=> HOI classification loss: 0.9174, interactiveness loss: 0.3056 transH loss: 0.4871
+Epoch [13/20], Iter. [0564/2353], Loss: 1.6899, Time[Data/Iter.]: [0.43s/322.28s]
+=> HOI classification loss: 0.9231, interactiveness loss: 0.3083 transH loss: 0.4585
+Epoch [13/20], Iter. [0864/2353], Loss: 1.6944, Time[Data/Iter.]: [0.42s/321.30s]
+=> HOI classification loss: 0.9086, interactiveness loss: 0.3066 transH loss: 0.4793
+Epoch [13/20], Iter. [1164/2353], Loss: 1.6956, Time[Data/Iter.]: [0.43s/321.30s]
+=> HOI classification loss: 0.9175, interactiveness loss: 0.3052 transH loss: 0.4728
+Epoch [13/20], Iter. [1464/2353], Loss: 1.6963, Time[Data/Iter.]: [0.45s/320.99s]
+=> HOI classification loss: 0.9141, interactiveness loss: 0.3021 transH loss: 0.4802
+Epoch [13/20], Iter. [1764/2353], Loss: 1.6879, Time[Data/Iter.]: [0.42s/321.77s]
+=> HOI classification loss: 0.9033, interactiveness loss: 0.3064 transH loss: 0.4783
+Epoch [13/20], Iter. [2064/2353], Loss: 1.7108, Time[Data/Iter.]: [0.45s/320.50s]
+=> HOI classification loss: 0.9144, interactiveness loss: 0.3171 transH loss: 0.4793
+Epoch: 13 | training mAP: 0.4942, evaluation time: 49.19s |validation mAP: 0.3266, total time: 479.67s
+
+Epoch [14/20], Iter. [0011/2353], Loss: 1.6898, Time[Data/Iter.]: [37.29s/360.64s]
+=> HOI classification loss: 0.8996, interactiveness loss: 0.3031 transH loss: 0.4872
+Epoch [14/20], Iter. [0311/2353], Loss: 1.6952, Time[Data/Iter.]: [0.43s/320.27s]
+=> HOI classification loss: 0.9210, interactiveness loss: 0.3126 transH loss: 0.4616
+Epoch [14/20], Iter. [0611/2353], Loss: 1.6952, Time[Data/Iter.]: [0.44s/322.39s]
+=> HOI classification loss: 0.8988, interactiveness loss: 0.3030 transH loss: 0.4934
+Epoch [14/20], Iter. [0911/2353], Loss: 1.6961, Time[Data/Iter.]: [0.47s/321.35s]
+=> HOI classification loss: 0.9077, interactiveness loss: 0.3015 transH loss: 0.4870
+Epoch [14/20], Iter. [1211/2353], Loss: 1.6642, Time[Data/Iter.]: [0.46s/321.58s]
+=> HOI classification loss: 0.8964, interactiveness loss: 0.2986 transH loss: 0.4693
+Epoch [14/20], Iter. [1511/2353], Loss: 1.6825, Time[Data/Iter.]: [0.44s/319.96s]
+=> HOI classification loss: 0.9159, interactiveness loss: 0.3018 transH loss: 0.4648
+Epoch [14/20], Iter. [1811/2353], Loss: 1.6928, Time[Data/Iter.]: [0.44s/320.99s]
+=> HOI classification loss: 0.9066, interactiveness loss: 0.3039 transH loss: 0.4822
+Epoch [14/20], Iter. [2111/2353], Loss: 1.6842, Time[Data/Iter.]: [0.43s/321.04s]
+=> HOI classification loss: 0.9098, interactiveness loss: 0.3059 transH loss: 0.4684
+Epoch: 14 | training mAP: 0.5067, evaluation time: 43.91s |validation mAP: 0.3295, total time: 479.24s
+
+Epoch [15/20], Iter. [0058/2353], Loss: 1.6810, Time[Data/Iter.]: [39.44s/363.18s]
+=> HOI classification loss: 0.8867, interactiveness loss: 0.3014 transH loss: 0.4929
+Epoch [15/20], Iter. [0358/2353], Loss: 1.6882, Time[Data/Iter.]: [0.45s/319.98s]
+=> HOI classification loss: 0.8996, interactiveness loss: 0.2982 transH loss: 0.4903
+Epoch [15/20], Iter. [0658/2353], Loss: 1.6703, Time[Data/Iter.]: [0.43s/319.88s]
+=> HOI classification loss: 0.8996, interactiveness loss: 0.3049 transH loss: 0.4658
+Epoch [15/20], Iter. [0958/2353], Loss: 1.6674, Time[Data/Iter.]: [0.43s/319.71s]
+=> HOI classification loss: 0.8922, interactiveness loss: 0.2987 transH loss: 0.4765
+Epoch [15/20], Iter. [1258/2353], Loss: 1.6870, Time[Data/Iter.]: [0.45s/320.46s]
+=> HOI classification loss: 0.9079, interactiveness loss: 0.3014 transH loss: 0.4777
+Epoch [15/20], Iter. [1558/2353], Loss: 1.6790, Time[Data/Iter.]: [0.49s/320.21s]
+=> HOI classification loss: 0.8950, interactiveness loss: 0.3002 transH loss: 0.4838
+Epoch [15/20], Iter. [1858/2353], Loss: 1.6813, Time[Data/Iter.]: [0.46s/320.37s]
+=> HOI classification loss: 0.9031, interactiveness loss: 0.2994 transH loss: 0.4789
+Epoch [15/20], Iter. [2158/2353], Loss: 1.6957, Time[Data/Iter.]: [0.43s/321.17s]
+=> HOI classification loss: 0.9101, interactiveness loss: 0.3107 transH loss: 0.4749
+Epoch: 15 | training mAP: 0.5099, evaluation time: 42.88s |validation mAP: 0.3288, total time: 481.32s
+
+Epoch [16/20], Iter. [0105/2353], Loss: 1.6957, Time[Data/Iter.]: [39.46s/362.58s]
+=> HOI classification loss: 0.9033, interactiveness loss: 0.3042 transH loss: 0.4882
+Epoch [16/20], Iter. [0405/2353], Loss: 1.6787, Time[Data/Iter.]: [0.43s/321.14s]
+=> HOI classification loss: 0.9011, interactiveness loss: 0.3012 transH loss: 0.4764
+Epoch [16/20], Iter. [0705/2353], Loss: 1.6788, Time[Data/Iter.]: [0.43s/320.77s]
+=> HOI classification loss: 0.8980, interactiveness loss: 0.3029 transH loss: 0.4779
+Epoch [16/20], Iter. [1005/2353], Loss: 1.6718, Time[Data/Iter.]: [0.44s/319.81s]
+=> HOI classification loss: 0.8896, interactiveness loss: 0.2982 transH loss: 0.4840
+Epoch [16/20], Iter. [1305/2353], Loss: 1.6747, Time[Data/Iter.]: [0.44s/321.76s]
+=> HOI classification loss: 0.8980, interactiveness loss: 0.3042 transH loss: 0.4725
+Epoch [16/20], Iter. [1605/2353], Loss: 1.6564, Time[Data/Iter.]: [0.46s/323.61s]
+=> HOI classification loss: 0.8912, interactiveness loss: 0.2987 transH loss: 0.4665
+Epoch [16/20], Iter. [1905/2353], Loss: 1.6792, Time[Data/Iter.]: [0.48s/322.03s]
+=> HOI classification loss: 0.8949, interactiveness loss: 0.3005 transH loss: 0.4838
+Epoch [16/20], Iter. [2205/2353], Loss: 1.6756, Time[Data/Iter.]: [0.46s/322.07s]
+=> HOI classification loss: 0.9012, interactiveness loss: 0.3034 transH loss: 0.4711
+Epoch: 16 | training mAP: 0.5209, evaluation time: 47.64s |validation mAP: 0.3269, total time: 477.47s
+
+Epoch [17/20], Iter. [0152/2353], Loss: 1.7006, Time[Data/Iter.]: [37.98s/362.90s]
+=> HOI classification loss: 0.9001, interactiveness loss: 0.3017 transH loss: 0.4988
+Epoch [17/20], Iter. [0452/2353], Loss: 1.6514, Time[Data/Iter.]: [0.47s/322.53s]
+=> HOI classification loss: 0.8840, interactiveness loss: 0.2985 transH loss: 0.4689
+Epoch [17/20], Iter. [0752/2353], Loss: 1.6507, Time[Data/Iter.]: [0.47s/320.74s]
+=> HOI classification loss: 0.8849, interactiveness loss: 0.2988 transH loss: 0.4670
+Epoch [17/20], Iter. [1052/2353], Loss: 1.6914, Time[Data/Iter.]: [0.44s/321.03s]
+=> HOI classification loss: 0.9052, interactiveness loss: 0.3064 transH loss: 0.4799
+Epoch [17/20], Iter. [1352/2353], Loss: 1.6760, Time[Data/Iter.]: [0.47s/321.57s]
+=> HOI classification loss: 0.8964, interactiveness loss: 0.3006 transH loss: 0.4791
+Epoch [17/20], Iter. [1652/2353], Loss: 1.6651, Time[Data/Iter.]: [0.47s/319.95s]
+=> HOI classification loss: 0.8864, interactiveness loss: 0.2965 transH loss: 0.4822
+Epoch [17/20], Iter. [1952/2353], Loss: 1.6743, Time[Data/Iter.]: [0.45s/320.22s]
+=> HOI classification loss: 0.8960, interactiveness loss: 0.3034 transH loss: 0.4749
+Epoch [17/20], Iter. [2252/2353], Loss: 1.6551, Time[Data/Iter.]: [0.45s/321.17s]
+=> HOI classification loss: 0.8781, interactiveness loss: 0.2969 transH loss: 0.4802
+Epoch: 17 | training mAP: 0.5109, evaluation time: 44.58s |validation mAP: 0.3311, total time: 481.43s
+
+Epoch [18/20], Iter. [0199/2353], Loss: 1.6676, Time[Data/Iter.]: [39.46s/363.02s]
+=> HOI classification loss: 0.8882, interactiveness loss: 0.3026 transH loss: 0.4768
+Epoch [18/20], Iter. [0499/2353], Loss: 1.6618, Time[Data/Iter.]: [0.43s/321.17s]
+=> HOI classification loss: 0.8831, interactiveness loss: 0.2923 transH loss: 0.4864
+Epoch [18/20], Iter. [0799/2353], Loss: 1.6663, Time[Data/Iter.]: [0.43s/321.48s]
+=> HOI classification loss: 0.8933, interactiveness loss: 0.2992 transH loss: 0.4737
+Epoch [18/20], Iter. [1099/2353], Loss: 1.6707, Time[Data/Iter.]: [0.46s/323.44s]
+=> HOI classification loss: 0.8863, interactiveness loss: 0.3011 transH loss: 0.4832
+Epoch [18/20], Iter. [1399/2353], Loss: 1.6580, Time[Data/Iter.]: [0.45s/321.39s]
+=> HOI classification loss: 0.8737, interactiveness loss: 0.2938 transH loss: 0.4905
+Epoch [18/20], Iter. [1699/2353], Loss: 1.6773, Time[Data/Iter.]: [0.45s/320.22s]
+=> HOI classification loss: 0.9013, interactiveness loss: 0.2990 transH loss: 0.4769
+Epoch [18/20], Iter. [1999/2353], Loss: 1.6498, Time[Data/Iter.]: [0.44s/321.01s]
+=> HOI classification loss: 0.8771, interactiveness loss: 0.3022 transH loss: 0.4705
+Epoch [18/20], Iter. [2299/2353], Loss: 1.6760, Time[Data/Iter.]: [0.44s/320.50s]
+=> HOI classification loss: 0.9007, interactiveness loss: 0.3028 transH loss: 0.4725
+Epoch: 18 | training mAP: 0.5157, evaluation time: 44.37s |validation mAP: 0.3292, total time: 477.47s
+
+Epoch [19/20], Iter. [0246/2353], Loss: 1.6826, Time[Data/Iter.]: [39.16s/363.20s]
+=> HOI classification loss: 0.9116, interactiveness loss: 0.3080 transH loss: 0.4630
+Epoch [19/20], Iter. [0546/2353], Loss: 1.6523, Time[Data/Iter.]: [0.46s/320.35s]
+=> HOI classification loss: 0.8709, interactiveness loss: 0.2944 transH loss: 0.4869
+Epoch [19/20], Iter. [0846/2353], Loss: 1.6547, Time[Data/Iter.]: [0.45s/320.19s]
+=> HOI classification loss: 0.8689, interactiveness loss: 0.2946 transH loss: 0.4912
+Epoch [19/20], Iter. [1146/2353], Loss: 1.6603, Time[Data/Iter.]: [0.42s/318.94s]
+=> HOI classification loss: 0.8883, interactiveness loss: 0.3034 transH loss: 0.4686
+Epoch [19/20], Iter. [1446/2353], Loss: 1.6555, Time[Data/Iter.]: [0.45s/321.12s]
+=> HOI classification loss: 0.8832, interactiveness loss: 0.2998 transH loss: 0.4724
+Epoch [19/20], Iter. [1746/2353], Loss: 1.6505, Time[Data/Iter.]: [0.46s/321.69s]
+=> HOI classification loss: 0.8836, interactiveness loss: 0.2949 transH loss: 0.4720
+Epoch [19/20], Iter. [2046/2353], Loss: 1.6459, Time[Data/Iter.]: [0.46s/322.15s]
+=> HOI classification loss: 0.8776, interactiveness loss: 0.3000 transH loss: 0.4683
+Epoch [19/20], Iter. [2346/2353], Loss: 1.6719, Time[Data/Iter.]: [0.44s/319.66s]
+=> HOI classification loss: 0.8872, interactiveness loss: 0.2961 transH loss: 0.4885
+Epoch: 19 | training mAP: 0.5258, evaluation time: 45.28s |validation mAP: 0.3317, total time: 476.22s
+
+Epoch [20/20], Iter. [0293/2353], Loss: 1.6864, Time[Data/Iter.]: [36.69s/361.27s]
+=> HOI classification loss: 0.8876, interactiveness loss: 0.3056 transH loss: 0.4931
+Epoch [20/20], Iter. [0593/2353], Loss: 1.6494, Time[Data/Iter.]: [0.44s/320.48s]
+=> HOI classification loss: 0.8844, interactiveness loss: 0.2958 transH loss: 0.4692
+Epoch [20/20], Iter. [0893/2353], Loss: 1.6616, Time[Data/Iter.]: [0.47s/321.30s]
+=> HOI classification loss: 0.8821, interactiveness loss: 0.3014 transH loss: 0.4781
+Epoch [20/20], Iter. [1193/2353], Loss: 1.6430, Time[Data/Iter.]: [0.47s/321.27s]
+=> HOI classification loss: 0.8826, interactiveness loss: 0.2990 transH loss: 0.4614
+Epoch [20/20], Iter. [1493/2353], Loss: 1.6448, Time[Data/Iter.]: [0.45s/322.52s]
+=> HOI classification loss: 0.8795, interactiveness loss: 0.3011 transH loss: 0.4641
+Epoch [20/20], Iter. [1793/2353], Loss: 1.6473, Time[Data/Iter.]: [0.46s/320.72s]
+=> HOI classification loss: 0.8650, interactiveness loss: 0.2904 transH loss: 0.4919
+Epoch [20/20], Iter. [2093/2353], Loss: 1.6626, Time[Data/Iter.]: [0.44s/320.68s]
+=> HOI classification loss: 0.8801, interactiveness loss: 0.2950 transH loss: 0.4875
+Epoch: 20 | training mAP: 0.5281, evaluation time: 47.00s |validation mAP: 0.3328, total time: 473.50s
+

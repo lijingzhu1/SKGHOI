@@ -1,10 +1,5 @@
 """
-Train and validate with distributed data parallel
-
-Fred Zhang <frederic.zhang@anu.edu.au>
-
-The Australian National University
-Australian Centre for Robotic Vision
+Train and validate with distributed data parallel based on SCG
 """
 
 import os
